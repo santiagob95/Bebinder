@@ -15,25 +15,18 @@
  * @license: Apache License 2.0
  */
 
-package com.andtinder.model;
+package com.andtinder.demo.model;
 
-public class Likes {
-	 public enum Like {
-	        None(0), Liked(1), Disliked(2);
+public class Orientations {
+	 public enum Orientation {
+	        Ordered, Disordered;
 
-	        public final int value;
-
-	        private Like(int value) {
-	            this.value = value;
-	        }
-
-	        public static Like fromValue(int value) {
-	            for (Like style : Like.values()) {
-	                if (style.value == value) {
-	                    return style;
-	                }
-	            }
-	            return null;
+	        public static Orientation fromIndex(int index) {
+		        Orientation[] values = Orientation.values();
+		        if(index < 0 || index >= values.length) {
+			        throw new IndexOutOfBoundsException();
+		        }
+		        return values[index];
 	        }
 	    }
 }

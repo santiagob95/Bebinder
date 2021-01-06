@@ -9,7 +9,7 @@
         android:bottomRightRadius="5dp"
         android:topLeftRadius="5dp"
         android:topRightRadius="5dp" />
-    <stroke android:width="2dp" 
+    <stroke android:width="20dp"
         android:color="#D0D0CE" 
        />
 

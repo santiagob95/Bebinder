@@ -46,37 +46,12 @@ public class MainActivity extends Activity {
 
 		SimpleCardStackAdapter adapter = new SimpleCardStackAdapter(this);
 
-		adapter.add(new CardModel("Title1", "Description goes here", r.getDrawable(R.drawable.picture1)));
-		adapter.add(new CardModel("Title2", "Description goes here", r.getDrawable(R.drawable.picture2)));
-		adapter.add(new CardModel("Title3", "Description goes here", r.getDrawable(R.drawable.picture3)));
-		adapter.add(new CardModel("Title4", "Description goes here", r.getDrawable(R.drawable.picture1)));
-		adapter.add(new CardModel("Title5", "Description goes here", r.getDrawable(R.drawable.picture2)));
-		adapter.add(new CardModel("Title6", "Description goes here", r.getDrawable(R.drawable.picture3)));
-		adapter.add(new CardModel("Title1", "Description goes here", r.getDrawable(R.drawable.picture1)));
-		adapter.add(new CardModel("Title2", "Description goes here", r.getDrawable(R.drawable.picture2)));
-		adapter.add(new CardModel("Title3", "Description goes here", r.getDrawable(R.drawable.picture3)));
-		adapter.add(new CardModel("Title4", "Description goes here", r.getDrawable(R.drawable.picture1)));
-		adapter.add(new CardModel("Title5", "Description goes here", r.getDrawable(R.drawable.picture2)));
-		adapter.add(new CardModel("Title6", "Description goes here", r.getDrawable(R.drawable.picture3)));
-		adapter.add(new CardModel("Title1", "Description goes here", r.getDrawable(R.drawable.picture1)));
-		adapter.add(new CardModel("Title2", "Description goes here", r.getDrawable(R.drawable.picture2)));
-		adapter.add(new CardModel("Title3", "Description goes here", r.getDrawable(R.drawable.picture3)));
-		adapter.add(new CardModel("Title4", "Description goes here", r.getDrawable(R.drawable.picture1)));
-		adapter.add(new CardModel("Title5", "Description goes here", r.getDrawable(R.drawable.picture2)));
-		adapter.add(new CardModel("Title6", "Description goes here", r.getDrawable(R.drawable.picture3)));
-		adapter.add(new CardModel("Title1", "Description goes here", r.getDrawable(R.drawable.picture1)));
-		adapter.add(new CardModel("Title2", "Description goes here", r.getDrawable(R.drawable.picture2)));
-		adapter.add(new CardModel("Title3", "Description goes here", r.getDrawable(R.drawable.picture3)));
-		adapter.add(new CardModel("Title4", "Description goes here", r.getDrawable(R.drawable.picture1)));
-		adapter.add(new CardModel("Title5", "Description goes here", r.getDrawable(R.drawable.picture2)));
-		adapter.add(new CardModel("Title6", "Description goes here", r.getDrawable(R.drawable.picture3)));
-		adapter.add(new CardModel("Title1", "Description goes here", r.getDrawable(R.drawable.picture1)));
-		adapter.add(new CardModel("Title2", "Description goes here", r.getDrawable(R.drawable.picture2)));
-		adapter.add(new CardModel("Title3", "Description goes here", r.getDrawable(R.drawable.picture3)));
-		adapter.add(new CardModel("Title4", "Description goes here", r.getDrawable(R.drawable.picture1)));
-		adapter.add(new CardModel("Title5", "Description goes here", r.getDrawable(R.drawable.picture2)));
+		adapter.add(new CardModel("santi", r.getDrawable(R.drawable.picture1)));
+		adapter.add(new CardModel("pedro", r.getDrawable(R.drawable.picture2)));
+		adapter.add(new CardModel("julian", r.getDrawable(R.drawable.picture3)));
 
-        CardModel cardModel = new CardModel("Title1", "Description goes here", r.getDrawable(R.drawable.picture1));
+
+        CardModel cardModel = new CardModel( "Izquierda dislike, derecha like", r.getDrawable(R.drawable.picture1));
         cardModel.setOnClickListener(new CardModel.OnClickListener() {
            @Override
            public void OnClickListener() {

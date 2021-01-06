@@ -1,4 +1,4 @@
-package com.andtinder.view;
+package com.andtinder.demo.view;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.andtinder.R;
-import com.andtinder.model.CardModel;
+import com.andtinder.demo.model.CardModel;
 
 public final class SimpleCardStackAdapter extends CardStackAdapter {
 

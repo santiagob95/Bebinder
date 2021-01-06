@@ -15,10 +15,8 @@
  * @license: Apache License 2.0
  */
 
-package com.andtinder.model;
+package com.andtinder.demo.model;
 
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 
 public class CardModel {
@@ -39,7 +37,7 @@ public class CardModel {
     }
 
 	public CardModel() {
-		this( null, (Drawable)null);
+		this( null, null);
 	}
 
 	public CardModel( String nombre, Drawable cardImage) {

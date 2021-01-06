@@ -42,6 +42,7 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     annotationProcessor 'org.projectlombok:lombok:1.16.10'
 
     // Unit testing dependencies
